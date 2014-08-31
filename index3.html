@@ -4,7 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC bootstrap website</title>
-   
     <style type="text/css">
        body {
              background-image:url(black2.png);
@@ -18,7 +17,7 @@
        }
         div#div3{
         background-color: #000000;
-                text-align: center;
+        text-align: center;
         padding-left: 50px;
         padding-right: 50px;
        }
@@ -27,12 +26,169 @@
         text-align: center;
        }
       }
+      div#MidLine {
+        float: left;
+         height: 1px;
+          margin-left: 7.323701%;
+          margin-top: -111.984375px;
+          width: 85.268094%;
+          background-image:-webkit-linear-gradient(left,#FFF 35%, rgba(239, 239, 239, 0) 35%, rgba(239, 239, 239, 0) 65%, #FFF 65%);
+          background-image:linear-gradient(left,#FFF 35%, rgba(239, 239, 239, 0) 35%, rgba(239, 239, 239, 0) 65%, #FFF 65%);
+          clear: both ;        
+          background-attachment: scroll;
+         -webkit-filter: blur(0px);
+         filter: blur(0px);
+        }
+      div.clearfix{
+          float: left;
+         height: 1px;
+          margin-left: 7.323701%;
+          margin-top: -111.984375px;
+          width: 85.268094%;
+          background-image:-webkit-linear-gradient(left,#FFF 35%, rgba(239, 239, 239, 0) 35%, rgba(239, 239, 239, 0) 65%, #FFF 65%);
+          background-image:linear-gradient(left,#FFF 35%, rgba(239, 239, 239, 0) 35%, rgba(239, 239, 239, 0) 65%, #FFF 65%);
+          clear: both ;        
+          background-attachment: scroll;
+         -webkit-filter: blur(0px);
+         filter: blur(0px);
+        }
+      li
+        {
+          text-shadow: 1px 1px 1px #000000;
+          z-index: 3;
+        }
+      #MidText{
+          color : yellow;
 
+      }
+      #sj01 > li{
+      }
+      #sj01{
+        margin-left: 25.6%;
+      }
+      #sj01:hover a{
+          color: yellow;
+      }
+      #sj01:hover li{
+          color: yellow;
+      }
+      #sj02 > li{
+      }
+      #sj02:hover a{
+          color: yellow;
+      }
+      #sj02:hover li{
+          color: yellow;
+      }
+      #sj03 > li{
+      }
+      #sj03:hover a{
+          color: yellow;
+      }
+      #sj03:hover li{
+          color: yellow;
+      }
+      #sj04 > li{
+      }
+      #sj04:hover a{
+          color: yellow;
+      }
+      #sj04:hover li{
+          color: yellow;
+      }
+      .glyphicon
+      {
+        height :20px ;
+        margin-right: -15px ;
+      }
+      #MidImg{
+        margin-left: 46.4%;
+        height :-40%;
+      }
+      #top01
+      {
+        height :36px;
+        margin-bottom: -6px;
+        text-align: center;
+      }
+      #logo2{
+        height :36px;
+        margin-left: 778.53621%;
+        margin-right: 778.53621%;
+        margin-top: -15px;
+        z-index: 2;
+      }
+      @media only screen and (max-width: 675px) {
+        #logo2{
+              float: left;
+              height :36px;
+              margin-left: 0%;
+              margin-right: 0%;
+              margin-top: -15px;
+              z-index: 2;
+            }
+          #MidText{
+              font-size: 1em;
+          }
+         #MidLine {
+          margin-left: 7.331019%;
+           margin-top: -10px;
+            clear: none;
+          width: 86.534722%;
+           border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-left-radius: 2px;
+          background-image:-webkit-linear-gradient(0deg, rgb(239, 239, 239) 35%, rgba(239, 239, 239, 0) 35%, rgba(239, 239, 239, 0) 65%, rgb(239, 239, 239) 65%);
+          background-image: linear-gradient(90deg, rgb(239, 239, 239) 35%, rgba(239, 239, 239, 0) 35%, rgba(239, 239, 239, 0) 65%, rgb(239, 239, 239) 65%);
+          background-attachment: scroll;
+          -webkit-background-size: auto;
+          background-size: auto;
+          background-position: 0% 0%;
+          background-repeat: repeat repeat;
+            }
+        div#div3{
+        background-color: #000000;
+        padding-left: 0px;
+        padding-right: 0px;
+       }
+
+        
+
+
+      }
+      #btm1{
+        margin-left: 10%;
+        margin-right:20%;
+      }
+      #btm3{
+        margin-left: 20%;
+      }
+      #btm2{
+        margin-left: -6px;
+        margin-right: auto;
+        margin-top: auto;
+      }
+      .btn{
+          max-width: 40px;
+          max-height: 34px;
+          height: 35px;
+          width : 30px;
+          margin-right: -5px;
+      }
+      #topherf{
+        max-width: 120%;
+        max-height: 36px;
+        z-index: 3;
+      }
+      #suoimg{
+        width: 75%;
+      }
+      
     </style>
    
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,7 +197,26 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar" role="navigation" id="top01">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header navbar-header-lg">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand " href="welcome.html">
+          <img alt="Brand" src="logo3.png" id="logo2">
+      </a>
+      </div>
+  </nav>
+
+
+
+
+ <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header navbar-header-lg">
@@ -51,23 +226,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand " href="welcome.html">
-          <img alt="Brand" src="logo3.png">
-      </a>
     </div>
   
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a><span class="glyphicon glyphicon-flag"></span></a></li>
-        <li ><a href="index.html">首页</a></li>
+      <ul class="nav navbar-nav" id="sj01">
+        <li id="t1"><a href="index.html"><span class="glyphicon glyphicon-flag"></span></a></li>
+        <li id="t1"><a href="index.html">首页</a></li>
+      </ul>
+       <ul class="nav navbar-nav" id="sj02">
        <li><a herf="#"><span class="glyphicon glyphicon-file"></span></a></li>
         <li><a href="index2.html">作品展示</a></li>
-        <li><a herf="#"><span class="glyphicon glyphicon-user"></span></a></li>
+      </ul>
+      <ul class="nav navbar-nav" id="sj03">
+        <li class="active"><a herf="#"><span class="glyphicon glyphicon-user"></span></a></li>
         <li class="active"><a href="#">关于我们</a></li>
+      </ul>
+      <ul class="nav navbar-nav" id="sj04">
         <li><a herf="#"><span class="glyphicon glyphicon-plus-sign"></span></a></li>
         <li><a href="index4.html">加入社团</a></li>
       </ul>
+
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Bootstrap-version</a></li>
         <li class="dropdown">
@@ -84,14 +263,16 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
     <div id="div2" class="jumbotron" bgcolor="#000000">
       <div id="div3" class="container">
-        <h1>Hello, world!</h1>
-         <img src="welcome.jpg">
+         <img src="welcome.jpg" id="suoimg">
       </div>
-      <p>----------------------------------------------什么是TIC?----------------------------------------------</p>
+      <p id="MidText">什么是TIC?</p>
     </div>
-       
+      <div id="MidLine" class="clearfix"></div> 
+
        <div id="div3" class="row">
         <div id="div3" class="col-sm-4">
                <img src="p.png">
@@ -120,40 +301,23 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-          <li><a >---------</a></li>
+      <ul class="nav navbar-nav" id="btm1">
             <li class="active"><a >欢迎加入我们</a></li>
-           <li><a >---------------------------</a></li>
       </ul>
 
       <form class="navbar-form navbar-left" role="search">
+        <button class="btn btn-default">
+                <span class="glyphicon glyphicon-search" id="btm2"></span>       
+        </button>
         <div class="input-group">
-          <span class="input-group-addon">  
-              <span class="glyphicon glyphicon-search"></span>
-          </span>
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
       </form>
-           <ul class="nav navbar-nav">
-          <li><a>------------------</a></li>
+           <ul class="nav navbar-nav" id="btm3">
             <li class="active"><a>联系电话：158-1011-8815</a></li>
-           <li><a>------------------</a></li>
       </ul>
 
 
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">作者<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">郑三金</a></li>
-            <li><a href="#">郑三金</a></li>
-            <li><a href="#">郑三金</a></li>
-            <li class="divider"></li>
-            <li><a href="#">还是郑三金</a></li>
-          </ul>
-        </li>
-      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
